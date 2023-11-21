@@ -127,7 +127,7 @@ export function MessageExporter() {
   ];
   const { currentStep, setCurrentStepIndex, currentStepIndex } =
     useSteps(steps);
-  const formats = ["text", "image", "json"] as const;
+  const formats = ["text", "image"] as const;
   type ExportFormat = (typeof formats)[number];
 
   const [exportConfig, setExportConfig] = useState({
@@ -353,13 +353,6 @@ export function PreviewActions(props: {
           shadow
           icon={<DownloadIcon />}
           onClick={props.download}
-        ></IconButton>
-        <IconButton
-          text={Locale.Export.Share}
-          bordered
-          shadow
-          icon={loading ? <LoadingIcon /> : <ShareIcon />}
-          onClick={share}
         ></IconButton>
       </div>
       <div
