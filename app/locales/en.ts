@@ -379,9 +379,9 @@ const en: LocaleType = {
   NewChat: {
     Return: "Return",
     Skip: "Just Start",
-    Title: "Pick a Mask",
-    SubTitle: "Chat with the Soul behind the Mask",
-    More: "Find More",
+    Title: "Pick a Tutor",
+    SubTitle: "Learn from expert AI Brains",
+    More: "Choose",
     NotShow: "Never Show Again",
     ConfirmNoShow: "Confirm to disable？You can enable it in settings later.",
   },

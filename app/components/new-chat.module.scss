@@ -5,7 +5,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  /*  justify-content: center; */
   flex-direction: column;
 
   .mask-header {
@@ -22,7 +22,7 @@
     margin-top: 5vh;
     margin-bottom: 20px;
     animation: slide-in ease 0.3s;
-
+    margin-top: 100px;
     .mask-card {
       padding: 20px 10px;
       border: var(--border-in-light);
