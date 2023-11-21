@@ -162,10 +162,6 @@ export function MessageExporter() {
       return (
         <MarkdownPreviewer messages={selectedMessages} topic={session.topic} />
       );
-    } else if (exportConfig.format === "json") {
-      return (
-        <JsonPreviewer messages={selectedMessages} topic={session.topic} />
-      );
     } else {
       return (
         <ImagePreviewer messages={selectedMessages} topic={session.topic} />
