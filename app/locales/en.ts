@@ -338,9 +338,9 @@ const en: LocaleType = {
   Mask: {
     Name: "Mask",
     Page: {
-      Title: "Prompt Template",
-      SubTitle: (count: number) => `${count} prompt templates`,
-      Search: "Search Templates",
+      Title: "AI Tutors",
+      SubTitle: (count: number) => `${count} Tutors`,
+      Search: "Search Tutors",
       Create: "Create",
     },
     Item: {
